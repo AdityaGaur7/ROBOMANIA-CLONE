@@ -1,0 +1,272 @@
+@media (max-width:600px) {
+    /*-------------------  index.html    */
+.links{
+    display: none;
+    
+}
+
+.logo1 img{
+    display: none;
+}
+
+
+.photo img{
+    width: auto;
+    height:25vh;
+}
+.txt{
+    height: 28vh;
+    width: 70vw;
+    font-size: 1.5vh;
+}
+.box{
+    width: 90vw;
+}
+.t h1{
+    font-size: 40px;
+ position: relative;
+ left: 7rem;
+ margin-right: 12rem;
+
+}
+/* .box1{
+    height: 100vh;
+} */
+.arrow{
+     position:fixed ;
+     right: 2vw;
+     z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.arrow button{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    font-size: 30px;
+}
+
+#cls{
+    display: none;
+}
+
+.box1 img{
+    width: auto;
+    height: 10rem;
+    margin-left: 4rem;
+}
+.btn button{
+    font-size: 10px; 
+     color: black;
+}
+
+.c h1{
+    font-size: 3rem;
+    margin-left: 3rem;
+    /* margin-top:15vh; */
+}
+.icn{
+    margin: 2rem;
+    margin-top: 9rem;
+}
+.foot{
+    display: block;
+    height: 50vh;
+    text-align: center;
+}
+#below-img{
+    width: auto;
+    height: 5rem;
+}
+
+
+.first h2{
+display: none;
+
+font-size: 30px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+
+}
+.box1{
+    display: block;
+}
+
+
+
+.copyright{
+    font-size: 19px;
+
+}
+
+
+
+.btn{
+    text-align: -webkit-center;
+    width: 45%;
+    margin-left: 44vw;
+}
+#btn {
+    display: grid;
+    width: 45vw;
+    height: 10vh;
+    border-radius: 45px;
+    /* text-align: center; */
+
+}
+.btn li{
+    width: 50vw;
+}
+.map iframe{
+    border: 0;
+    margin-left: 4rem;
+    /* margin-top: -1rem; */
+    height: 45vh;
+    width: 45vh;
+}
+form{
+    margin-left: 25vw;
+}
+/*------------------- gallery.html   */
+
+.links{
+    display: none;
+}
+.logo img{
+    width: auto;
+    height: 5rem;
+
+}
+.moment img{
+    width: auto;
+    
+    height: 15.5rem;
+}
+.moment{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.below h1{
+    font-size: 15px;
+    
+}
+.below p{
+    font-size: 7px;
+}
+#blw a{
+    font-size: 14px;
+}
+
+.foot{
+    width: 100%;
+    background-color:rgb(46, 45, 45) ;
+}
+.sidebar{
+    
+    position: fixed;
+    z-index: 20;
+    width: 110vw;
+
+    height: -webkit-fill-available;
+    text-align: center;
+
+}
+
+/*--------------- web.html  */
+
+
+.video{
+    display: block;
+    margin: 1rem 0px;
+}
+.right h4{
+    font-size: 18px;
+    margin-bottom: 5rem;
+}
+.right h2{
+    font-size: 44px;
+}
+.title h1{
+    font-size: 28px;
+}
+
+
+/*------------------------ event.html*/
+
+
+.head img{
+    width: 28rem;
+    /* height: 8rem; */
+}
+
+.head h3,button,.sabd pre{
+    display: none;
+}
+.robo img{
+    top: 26vh;
+    left: 31vw;
+    width:auto;
+    height: 50vh;
+}
+.robo{
+    margin-bottom: 85vh;
+}
+#move{
+    font-size: 2rem;
+}
+.lefty,.righty{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+marquee{
+    position: absolute;
+    z-index: 1;
+}
+.lefty img{
+    margin-left: 7rem;
+    position: absolute;
+   width: auto;
+   height: 33vh;
+}
+.righty img{
+    position: absolute;
+    width: auto;
+    height: 33vh;
+    margin-left: 7rem;
+}
+#bg{
+    width: 127%;
+}
+marquee{
+    width: 81vw;
+}
+
+/*----------------------- team.html*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.card{
+    width: 88vw;
+    color: white;
+    line-height: 5vh;
+}
+#center{
+    position: relative;
+    left: 0vw;
+    
+}
+.frm input,textarea{
+    width: 67vw;
+}
+
+}
