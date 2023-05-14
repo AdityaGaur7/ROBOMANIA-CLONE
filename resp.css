@@ -1,5 +1,7 @@
 @media (max-width:600px) {
-
+ body{
+    overflow-x: hidden;
+ }
     /*-------------------  index.html    */
     .links {
         display: none;
@@ -39,7 +41,7 @@
 } */
     .arrow {
         position: fixed;
-        right: 2vw;
+        right: 6vw;
         z-index: 2;
         display: flex;
         flex-direction: row-reverse;
