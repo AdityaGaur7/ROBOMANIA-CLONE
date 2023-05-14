@@ -5,9 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
-a:hover{
-cursor:pointer;
-}
+
 html {
     scroll-behavior: smooth;
 }
